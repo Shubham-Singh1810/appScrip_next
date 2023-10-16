@@ -1,0 +1,354 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+  .globalXPadding {
+    padding: 0px 60px;
+  }
+  /* general setting ends */
+  
+  /* navbar start */
+  nav {
+    background-color: rgba(18, 18, 18, 1);
+    padding: 0px 60px !important;
+  }
+  .tog{
+    display: none !important;
+  }
+  .brandName {
+    color: #fff !important;
+    font-family: Raleway;
+    font-size: 30px !important;
+    font-weight: 700;
+  }
+  .nav-link {
+    font-family: Roboto;
+    font-size: 18px;
+    margin: 0px 15px;
+    color: #fff !important;
+    padding: 27px 0px !important;
+  }
+  .active {
+    border-bottom: 4px solid #7426f2 !important;
+    color: #c826f2 !important;
+  }
+  .navBtnGroup span {
+    color: #fff;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 12px 40px;
+  }
+  .activeButton {
+    border-radius: 16px;
+    background: var(--aa, linear-gradient(91deg, #7526f2 0%, #c826f2 100%));
+  }
+  /* navbar end */
+  
+  
+  
+  /* home start */
+  .homeContainer {
+    /* background-image: url(../../frontend/public/assets/images/Motion\ Background.svg); */
+    background-image: url(../../public/assets/images/Motion\ Background.svg);
+    height: 120vh;
+  }
+  .bg {
+    height: 120vh;
+    background-image: url(../../public/assets/images/1.\ Hero\ Banner\ Section.png);
+    background-size: 100% 100%;
+  }
+  .auth {
+    width: 500px;
+    padding: 40px;
+    border-radius: 31px;
+    border: 1.123px solid var(--aa, #7526f2);
+    background: rgba(30, 28, 34, 0.6);
+    backdrop-filter: blur(5px);
+  }
+  .homeContainer h1 {
+    color:  #cac4d2;
+    font-family: Roboto;
+    font-size: 80px;
+    font-weight: 600;
+    line-height: 118%;
+  }
+  .homeContainer p {
+    color: #c2a9d9;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 400;
+  }
+  .googleLoginBtn {
+    border-radius: 15.721px;
+    background: #4285f4;
+    width: 100%;
+    outline: none;
+    color: #fff;
+    padding: 10px 80px;
+    font-family: Roboto;
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border: none;
+  }
+  .googleLoginBtn:hover{
+    box-shadow: 2px 2px 5px black;
+  }
+  .googleLoginBtn img {
+    padding: 4px;
+    background-color: white;
+    border-radius: 4px;
+  }
+  .homeContainer input {
+    border-radius: 11.3px;
+    border: 1.13px solid #3d3549;
+    padding: 12px;
+    background: transparent;
+    margin-bottom: 28px;
+  }
+  button {
+    border-radius: 15.721px;
+    width: 100%;
+    outline: none;
+    color: #fff;
+    padding: 13px 80px;
+    font-family: Roboto;
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border: none;
+    background: linear-gradient(91deg, #7426f2 0.18%, rgba(152, 88, 255, 0.97) 99.67%);
+    margin-bottom: 20px;
+  }
+  .divideLine {
+    text-align: center !important;
+  }
+  .divideLine span {
+    height: 1px;
+    width: 100%;
+    display: block;
+    background-color: #2d2d2d;
+    margin-top: 10px;
+  }
+  input::placeholder {
+    color: white;
+  }
+  .formContainer {
+    border-top: 1px solid #2d2d2d;
+  }
+  .auth p {
+    color: #8971a0;
+    text-align: justify;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  /* home end */
+  
+  /* elevete section start */
+  .eleveteSection {
+    background: #121212;
+  }
+  .eleveteSection h2 {
+    padding-top: 50px;
+    color: #d9d9d9;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 118%;
+  }
+  .wideCard {
+    border-radius: 28px;
+    background: #191919;
+    padding: 25px 25px 0px 25px;
+  }
+  .smallCard {
+    padding-bottom: 25px !important;
+  }
+  .cardBox {
+    background-color: rgba(0, 0, 10, 0.3);
+    margin: 3px;
+    border-radius: 6px;
+  }
+  .cardBoxContent p {
+    font-size: 12px !important;
+    text-align: left !important;
+  }
+  .cardBoxContent span {
+    color: #fff;
+    font-family: Roboto;
+    font-size: 13px;
+    letter-spacing: 0.7px;
+  }
+  .wideCard h3 {
+    color: #cac4d2;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 118%;
+    margin-bottom: 30px;
+  }
+  .wideCard p {
+    text-align: center;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #89759C;
+  }
+  .imgGallery img {
+    height: 150px;
+  }
+  /* elevete section end */
+  
+  /* join now start */
+  .joinNowSection {
+    background: rgb(27, 19, 35);
+    overflow-x: hidden;
+  }
+  .leftBobble {
+    background-image: url(../../public/assets/images/leftBubbles.png);
+    background-size: auto;
+  }
+  .rightBobble {
+    background-image: url(../../public/assets/images/rightBubbles.png);
+    background-size: auto;
+  }
+  .joinContent {
+    position: absolute;
+  }
+  .joinContent p {
+    text-align: center;
+    font-family: Roboto;
+    font-size: 20px;
+    color: #89759C;
+    font-weight: 400;
+    line-height: 20px;
+  }
+  .joinContent h3 {
+    color: #cac4d2;
+    font-family: Roboto;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  .joinContent button {
+    margin-top: 35px;
+    width: 250px;
+  }
+  /* join now end */
+  
+  /* slider section start */
+  .carousel, .carousel img  {
+    height: 80vh;
+  }
+  /* slider section end */
+  
+  /* afliate section start */
+  .afliateSection {
+    height: 80vh;
+    background: rgb(35, 25, 44);
+  }
+  .afliateSection h3 {
+    color: #cac4d2;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 600;
+  }
+  .afliateSection p {
+    color: rgba(137, 117, 156, 0.7);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 35px 0px;
+  }
+  .afliateSection p span {
+    text-align: center;
+    font-family: Roboto;
+    font-size: 40px;
+    font-weight: 600;
+    position: relative;
+    color: #7700d4;
+    top: 5px;
+  }
+  .afliateSection button {
+    width: 250px;
+  }
+  /* afliate section end */
+  
+  /* join community start */
+  .joinSection {
+    height: 70vh;
+    background: url(../../public/assets/images/Blur.png);
+    background-size: auto;
+  }
+  .joinContent {
+    padding: 0px 200px;
+  }
+  .joinSection h3 {
+    color: #cac4d2;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 38px;
+    font-weight: 600;
+  }
+  .joinSection p {
+    color: rgba(255, 255, 255, 0.7);
+    margin: 35px 0px;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .joinSection button {
+    margin-top: 0px;
+    padding: 13px 50px;
+  }
+  /* join community end *
+  
+  
+  /* footer start */
+  footer {
+    padding: 80px 60px 60px 60px;
+    background: #121212;
+    color: white;
+  }
+  footer h3 {
+    color: #fff;
+    margin-bottom: 17px;
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 600;
+  }
+  footer h4 {
+    color: #acacac;
+    font-family: Roboto;
+    font-size: 17px;
+    font-weight: 400;
+  }
+  .footerLogo {
+    color: #fff;
+    font-family: Raleway;
+    font-size: 60px;
+    font-weight: 700;
+    margin-top: -15px;
+  }
+  .socialIconGroup {
+    text-align: right;
+  }
+  .socialIconGroup h3 {
+    text-align: center;
+  }
+  .socialIconGroup img {
+    margin: 8px;
+  }
+  /* footer end */
+  
